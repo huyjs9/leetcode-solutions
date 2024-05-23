@@ -13,6 +13,18 @@ class Solution:
 
         return min(dp[n-1], dp[n-2])
 
+    def minCostClimbingStairsTopDown(self, cost: List[int]) -> int:
+        n = len(cost)
+
+        def minCost(i):
+            if i < 0:
+                return float("inf")
+            if i < 2:
+                return cost[i]
+            return min(minCost(i-1), minCost(i-2)) + cost[i]
+
+        return min(minCost(n-1), minCost(n-2))
+
 
 solution = Solution().minCostClimbingStairs
 
