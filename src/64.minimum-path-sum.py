@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+    # Bottom - Up
     def minPathSum(self, grid: List[List[int]]) -> int:
         n = len(grid)
         m = len(grid[0])
@@ -22,6 +23,7 @@ class Solution:
 
         return dp[n-1][m-1]
 
+    # Top - Down
     def minPathSumTopDown(self, grid: List[List[int]]) -> int:
         n = len(grid)
         m = len(grid[0])
