@@ -6,3 +6,4 @@
 | 64  | [Minimum Path Sum](./src/64.minimum-path-sum.py)                  | Medium | O(N\*M) | O(N\*M) | Array, Matrix, Dynamic Programming | DP (Max - Min) |
 | 70  | [Climbing Stairs](./src/70.climbing-stairs.py)                    | Easy   | O(N)    | O(N)    | Dynamic Programming                |                |
 | 764 | [Min Cost Climbing Stairs](./src/764.min-cost-climbing-stairs.py) | Easy   | O(N)    | O(N)    | Array, Dynamic Programming         |                |
+| 931 | [Minimum Falling Path Sum](./src/931.min-falling-path-sum.py)     | Medium | O(N\*M) | O(N\*M) | Array, Matrix, Dynamic Programming |                |
