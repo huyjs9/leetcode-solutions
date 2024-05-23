@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+    # Bottom - Up
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         n = len(cost)
         dp = [0] * n
@@ -13,7 +14,8 @@ class Solution:
 
         return min(dp[n-1], dp[n-2])
 
-    def minCostClimbingStairsTopDown(self, cost: List[int]) -> int:
+    # Top - Down
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
         n = len(cost)
 
         def minCost(i):
