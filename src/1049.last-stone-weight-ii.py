@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     """
-    DP Top-Down using set
+    DP Bottom-Up using set
     S=sum(stones): Time O(N*S) | Space O(S)
     """
 
