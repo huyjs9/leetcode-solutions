@@ -10,6 +10,7 @@
 | 474  | [Ones And Zeros](./src/474.ones-and-zeros.py)                     | Medium | O(M\*N\*L)   | O(M\*N\*L) | Array, String, Dynamic Programming |                |
 | 494  | [Target Sum](./src/494.target-sum.py)                             | Medium | O(N\*T)      | O(T)       | Dynamic Programming                |                |
 | 650  | [2 Keys Keyboard](./src/650.2-keys-keyboard.py)                   | Medium | O(N)         | O(N)       | Math, Dynamic Programming          |                |
+| 724  | [Find Pivot Index](./src/724.find-pivot-index.py)                 | Easy   | O(N)         | O(1)       | Array, Prefix Sum                  |                |
 | 764  | [Min Cost Climbing Stairs](./src/764.min-cost-climbing-stairs.py) | Easy   | O(N)         | O(N)       | Array, Dynamic Programming         |                |
 | 931  | [Minimum Falling Path Sum](./src/931.min-falling-path-sum.py)     | Medium | O(N\*M)      | O(N\*M)    | Array, Matrix, Dynamic Programming |                |
 | 983  | [Minimum Cost For Tickets](./src/983.min-cost-ticket.py)          | Medium | O(365)       | O(365)     | Array, Dynamic Programming         |                |
