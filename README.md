@@ -12,6 +12,7 @@
 | 650  | [2 Keys Keyboard](./src/650.2-keys-keyboard.py)                                                          | Medium | O(N)         | O(N)       | Math, Dynamic Programming          |                |
 | 724  | [Find Pivot Index](./src/724.find-pivot-index.py)                                                        | Easy   | O(N)         | O(1)       | Array, Prefix Sum                  |                |
 | 764  | [Min Cost Climbing Stairs](./src/764.min-cost-climbing-stairs.py)                                        | Easy   | O(N)         | O(N)       | Array, Dynamic Programming         |                |
+| 875  | [Koko Eating Bananas](./src/875.koko-eating-bananas.py)                                                  | Medium | O(N\*log(M)) | O(1)       | Array, Binary Search               |                |
 | 931  | [Minimum Falling Path Sum](./src/931.min-falling-path-sum.py)                                            | Medium | O(N\*M)      | O(N\*M)    | Array, Matrix, Dynamic Programming |                |
 | 983  | [Minimum Cost For Tickets](./src/983.min-cost-ticket.py)                                                 | Medium | O(365)       | O(365)     | Array, Dynamic Programming         |                |
 | 1049 | [Last Stone Weight II](./src/1049.last-stone-weight-ii.py)                                               | Medium | O(N\*S)      | O(S)       | Array, Dynamic Programming         |                |
