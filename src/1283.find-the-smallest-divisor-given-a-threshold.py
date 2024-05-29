@@ -8,12 +8,10 @@ from math import ceil
 class Solution:
     # Time: O(N*logN) | Space: O(1)
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:
-        nums = sorted(nums)
-
         def get_sum(div):
             return sum(ceil(num / div) for num in nums)
 
-        lo, hi = 1, nums[-1]
+        lo, hi = 1, max(nums)
 
         while lo < hi:
             mid = (lo + hi) // 2
