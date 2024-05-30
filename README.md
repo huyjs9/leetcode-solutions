@@ -10,6 +10,7 @@
 | 474  | [Ones And Zeros](./src/474.ones-and-zeros.py)                                                            | Medium | O(M\*N\*L)   | O(M\*N\*L) | Array, String, Dynamic Programming |                |
 | 494  | [Target Sum](./src/494.target-sum.py)                                                                    | Medium | O(N\*T)      | O(T)       | Dynamic Programming                |                |
 | 650  | [2 Keys Keyboard](./src/650.2-keys-keyboard.py)                                                          | Medium | O(N)         | O(N)       | Math, Dynamic Programming          |                |
+| 697  | [Degree Of An Array](./src/697.degree-of-an-array.py)                                                    | Easy   | O(N)         | O(N)       | Array, Hash Table                  |                |
 | 724  | [Find Pivot Index](./src/724.find-pivot-index.py)                                                        | Easy   | O(N)         | O(1)       | Array, Prefix Sum                  |                |
 | 764  | [Min Cost Climbing Stairs](./src/764.min-cost-climbing-stairs.py)                                        | Easy   | O(N)         | O(N)       | Array, Dynamic Programming         |                |
 | 875  | [Koko Eating Bananas](./src/875.koko-eating-bananas.py)                                                  | Medium | O(N\*log(M)) | O(1)       | Array, Binary Search               |                |
