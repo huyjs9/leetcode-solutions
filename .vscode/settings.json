@@ -1,0 +1,5 @@
+{
+  "code-runner.executorMap": {
+    "python": "python -u $workspaceRoot/src/leetcode.py $dir$fileName"
+  }
+}

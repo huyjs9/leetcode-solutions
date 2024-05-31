@@ -43,6 +43,21 @@ class Solution:
         return dp[m][n]
 
 
-solution = Solution().findMaxForm
-print("4", solution(["10", "0001", "111001", "1", "0"], 5, 3))
-print("2", solution(["10", "0", "1"], 1, 1))
+tests = [
+    (
+        (
+            ["10", "0001", "111001", "1", "0"],
+            5,
+            3,
+        ),
+        4,
+    ),
+    (
+        (
+            ["10", "0", "1"],
+            1,
+            1,
+        ),
+        2,
+    ),
+]

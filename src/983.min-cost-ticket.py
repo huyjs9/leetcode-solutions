@@ -12,8 +12,7 @@ class Solution:
             if day in memo:
                 return memo[day]
             if day in day_set:
-                memo[day] = min(dfs(day + d) + c for d,
-                                c in zip([1, 7, 30], costs))
+                memo[day] = min(dfs(day + d) + c for d, c in zip([1, 7, 30], costs))
             else:
                 memo[day] = dfs(day + 1)
 
@@ -21,7 +20,7 @@ class Solution:
 
         return dfs(1)
 
-    def minCostTickets(self, days: List[int], costs: List[int]) -> int:
+    def minCostTickets2(self, days: List[int], costs: List[int]) -> int:
         dp = {}
 
         def dfs(i):
@@ -29,7 +28,7 @@ class Solution:
                 return 0
             if i in dp:
                 return dp[i]
-            dp[i] = float('inf')
+            dp[i] = float("inf")
             for d, c in zip([1, 7, 30], costs):
                 j = i
                 while j < len(days) and days[j] < days[i] + d:
@@ -40,6 +39,13 @@ class Solution:
         return dfs(0)
 
 
-solution = Solution().minCostTickets
-print("11", solution([1, 4, 6, 7, 8, 20], [2, 7, 15]))
-# print("17", solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31], [2, 7, 15]))
+tests = [
+    (
+        ([1, 4, 6, 7, 8, 20], [2, 7, 15]),
+        11,
+    ),
+    (
+        ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31], [2, 7, 15]),
+        17,
+    ),
+]

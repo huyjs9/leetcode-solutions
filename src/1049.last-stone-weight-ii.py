@@ -38,7 +38,17 @@ class Solution:
         return dfs(0, 0, 0)
 
 
-solution = Solution().lastStoneWeightII2
-print("1", solution([1, 2, 4]))
-print("1", solution([2, 7, 4, 1, 8, 1]))
-print("5", solution([31, 26, 33, 21, 40]))
+tests = [
+    (
+        ([1, 2, 4],),
+        1,
+    ),
+    (
+        ([2, 7, 4, 1, 8, 1],),
+        1,
+    ),
+    (
+        ([31, 26, 33, 21, 40],),
+        5,
+    ),
+]

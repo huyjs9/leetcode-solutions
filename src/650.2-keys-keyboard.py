@@ -10,7 +10,7 @@ class Solution:
         return n
 
     # DP
-    def minSteps(self, n: int) -> int:
+    def minSteps2(self, n: int) -> int:
         dp = [0] * (n + 1)
 
         for i in range(2, n + 1):
@@ -22,10 +22,17 @@ class Solution:
                       - we just need to paste sequence j (i//j - 1) times, hence additional (i//j) times since we need to copy it first as well.
                       - we don't need checking any smaller length sequences 
                     """
-                    dp[i] = dp[j] + i//j
+                    dp[i] = dp[j] + i // j
         return dp[n]
 
 
-solution = Solution().minSteps
-print("3", solution(3))
-print("0", solution(1))
+tests = [
+    (
+        (3,),
+        3,
+    ),
+    (
+        (1,),
+        0,
+    ),
+]

@@ -37,7 +37,26 @@ class Solution:
         return dp[amount] if dp[amount] != float("inf") else -1
 
 
-solution = Solution().coinChange2
-print("3", solution([1, 2, 5], 11))
-print("-1", solution([2], 11))
-print("0", solution([1], 0))
+tests = [
+    (
+        (
+            [1, 2, 5],
+            11,
+        ),
+        3,
+    ),
+    (
+        (
+            [2],
+            11,
+        ),
+        -1,
+    ),
+    (
+        (
+            [1],
+            0,
+        ),
+        0,
+    ),
+]

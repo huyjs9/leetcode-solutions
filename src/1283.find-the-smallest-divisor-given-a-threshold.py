@@ -24,7 +24,23 @@ class Solution:
         return lo
 
 
-solution = Solution().smallestDivisor
-print("5", solution([1, 2, 5, 9], 6))
-print("44", solution([44, 22, 33, 11, 1], 5))
-print("1", solution([21212, 10101, 12121], 1000000))
+tests = [
+    (
+        (
+            [1, 2, 5, 9],
+            6,
+        ),
+        5,
+    ),
+    (
+        (
+            [44, 22, 33, 11, 1],
+            5,
+        ),
+        44,
+    ),
+    (
+        ([21212, 10101, 12121], 1000000),
+        1,
+    ),
+]

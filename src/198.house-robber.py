@@ -35,6 +35,13 @@ class Solution:
         return prev1
 
 
-solution = Solution().rob
-print("4", solution([1, 2, 3, 1]))
-print("12", solution([2, 7, 9, 3, 1]))
+tests = [
+    (
+        ([1, 2, 3, 1],),
+        4,
+    ),
+    (
+        ([2, 7, 9, 3, 1],),
+        12,
+    ),
+]

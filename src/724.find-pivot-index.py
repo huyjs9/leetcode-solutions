@@ -18,7 +18,17 @@ class Solution:
         return -1
 
 
-solution = Solution().pivotIndex
-print("3", solution([1, 7, 3, 6, 5, 6]))
-print("-1", solution([1, 2, 3]))
-print("0", solution([2, 1, -1]))
+tests = [
+    (
+        ([1, 7, 3, 6, 5, 6],),
+        3,
+    ),
+    (
+        ([1, 2, 3],),
+        -1,
+    ),
+    (
+        ([2, 1, -1],),
+        0,
+    ),
+]

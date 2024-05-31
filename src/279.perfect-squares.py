@@ -32,6 +32,13 @@ class Solution:
         return dp[n]
 
 
-solution = Solution().numSquares2
-print("3", solution(12))
-print("2", solution(13))
+tests = [
+    (
+        (12,),
+        3,
+    ),
+    (
+        (13,),
+        2,
+    ),
+]

@@ -44,6 +44,19 @@ class Solution:
         return dp[target]
 
 
-solution = Solution().findTargetSumWays2
-print("5", solution([1, 1, 1, 1, 1], 3))
-print("1", solution([1], 1))
+tests = [
+    (
+        (
+            [1, 1, 1, 1, 1],
+            3,
+        ),
+        5,
+    ),
+    (
+        (
+            [1],
+            1,
+        ),
+        1,
+    ),
+]

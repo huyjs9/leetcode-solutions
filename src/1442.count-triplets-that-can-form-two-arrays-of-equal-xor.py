@@ -80,6 +80,13 @@ class Solution:
         return cnt
 
 
-solution = Solution().countTriplets3
-print("4", solution([2, 3, 1, 6, 7]))
-print("10", solution([1, 1, 1, 1, 1]))
+tests = [
+    (
+        ([2, 3, 1, 6, 7],),
+        4,
+    ),
+    (
+        ([1, 1, 1, 1, 1],),
+        10,
+    ),
+]

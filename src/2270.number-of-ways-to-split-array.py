@@ -21,8 +21,21 @@ class Solution:
         return cnt
 
 
-solution = Solution().waysToSplitArray
-print("2", solution([10, 4, -8, 7]))
-print("2", solution([2, 3, 1, 0]))
-print("1", solution([9, 9, 9]))
-print("0", solution([-2, -1]))
+tests = [
+    (
+        ([10, 4, -8, 7],),
+        2,
+    ),
+    (
+        ([2, 3, 1, 0],),
+        2,
+    ),
+    (
+        ([9, 9, 9],),
+        1,
+    ),
+    (
+        ([-2, -1],),
+        0,
+    ),
+]

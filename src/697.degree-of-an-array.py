@@ -45,6 +45,13 @@ class Solution:
         return ans
 
 
-solution = Solution().findShortestSubArray
-print("2", solution([1, 2, 2, 3, 1]))
-print("6", solution([1, 2, 2, 3, 1, 4, 2]))
+tests = [
+    (
+        ([1, 2, 2, 3, 1],),
+        2,
+    ),
+    (
+        ([1, 2, 2, 3, 1, 4, 2],),
+        6,
+    ),
+]
