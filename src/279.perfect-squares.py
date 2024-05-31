@@ -1,3 +1,7 @@
+# Level: Medium
+# TAGS: Array, Dynamic Programming, Breadth-First Search
+
+
 class Solution:
     # DP Bottom-Up | Time O(N*log(N)) | Space O(N) 5168ms
     def numSquares(self, n: int) -> int:

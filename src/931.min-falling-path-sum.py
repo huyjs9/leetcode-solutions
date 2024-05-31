@@ -1,3 +1,6 @@
+# Level: Medium
+# TAGS: Array, Matrix, Dynamic Programming
+
 from typing import List
 
 

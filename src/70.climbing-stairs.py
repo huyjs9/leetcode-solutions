@@ -1,3 +1,7 @@
+# Level: Easy
+# TAGS: Dynamic Programming
+
+
 class Solution:
     def climbStairs(self, n: int) -> int:
         memo = {}

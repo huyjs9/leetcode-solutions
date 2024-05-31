@@ -1,3 +1,6 @@
+# Level: Medium
+# TAGS: Dynamic Programming
+
 import collections
 from typing import List
 

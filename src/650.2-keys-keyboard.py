@@ -1,3 +1,7 @@
+# Level: Medium
+# TAGS: Math, Dynamic Programming
+
+
 class Solution:
     # Math
     def minSteps(self, n: int) -> int:

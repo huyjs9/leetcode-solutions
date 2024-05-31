@@ -1,3 +1,6 @@
+# Level: Medium
+# TAGS: Array, String, Dynamic Programming
+
 import collections
 from typing import List
 
