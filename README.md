@@ -6,6 +6,7 @@
 
 | #    | Title                                                                                                                      | Level  | Time         | Space      | Tags                                                                | Note               |
 | ---- | -------------------------------------------------------------------------------------------------------------------------- | ------ | ------------ | ---------- | ------------------------------------------------------------------- | ------------------ |
+| 57   | [Insert Interval](./src/57.insert-interval.py)                                                                             | Medium | O(N)         | O(N)       | Array, Matrix, Dynamic Programming                                  | DP (Distinct Ways) |
 | 64   | [Minimum Path Sum](./src/64.minimum-path-sum.py)                                                                           | Medium | O(N\*M)      | O(N\*M)    | Array, Matrix, Dynamic Programming                                  | DP (Min - Max)     |
 | 70   | [Climbing Stairs](./src/70.climbing-stairs.py)                                                                             | Easy   | O(N)         | O(N)       | Dynamic Programming                                                 | DP (Min - Max)     |
 | 120  | [Triangle](./src/120.triangle.py)                                                                                          | Medium | O(N^2)       | O(N^2)     | Array, Dynamic Programming                                          | DP (Min - Max)     |
