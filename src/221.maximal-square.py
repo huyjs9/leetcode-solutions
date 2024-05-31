@@ -7,6 +7,8 @@ from typing import List
 class Solution:
     # Greedy approach
     """
+    ref: https://leetcode.com/problems/maximal-square/solutions/600149/python-thinking-process-diagrams-dp-approach/
+
     1  1
     1 [1]
     Find the min of top, left, top-left if the current is 1
