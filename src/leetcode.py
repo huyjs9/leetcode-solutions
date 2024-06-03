@@ -75,7 +75,7 @@ def run_leetcode_solution(filepath: str) -> int:
     if hasattr(module, "mi"):
         mi = getattr(module, "mi")
 
-    if mi >= len(method_names):
+    if mi >= len(method_names) or mi < -len(method_names):
         print_error("Invalid method index")
         return 1
 
