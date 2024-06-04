@@ -20,13 +20,17 @@ class Solution:
     # Top - Down
     def minCostClimbingStairs2(self, cost: List[int]) -> int:
         n = len(cost)
+        memo = {}
 
         def minCost(i):
             if i < 0:
                 return float("inf")
             if i < 2:
                 return cost[i]
-            return min(minCost(i - 1), minCost(i - 2)) + cost[i]
+            if i in memo:
+                return memo[i]
+            memo[i] = min(minCost(i - 1), minCost(i - 2)) + cost[i]
+            return memo[i]
 
         return min(minCost(n - 1), minCost(n - 2))
 
