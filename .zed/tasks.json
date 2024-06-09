@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Run tests",
+    "command": "python -u $ZED_DIRNAME/leetcode.py $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
